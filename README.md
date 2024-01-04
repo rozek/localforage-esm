@@ -29,6 +29,15 @@ But now you can easily `import localforage from 'localforage'` (or `import local
 </script>
 ```
 
+Or, if you don't like Import Maps
+
+```
+<script type="module">
+  import localforage from 'https://rozek.github.io/localforage-esm/dist/localforage.esm.js'
+  ...
+</script>
+```
+
 ## Build Instructions ##
 
 You may easily build this module yourself.
