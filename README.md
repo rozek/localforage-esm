@@ -29,7 +29,7 @@ But now you can easily `import localforage from 'localforage'` (or `import local
 </script>
 ```
 
-Or, if you don't like Import Maps
+Or, if you don't like import maps
 
 ```
 <script type="module">
