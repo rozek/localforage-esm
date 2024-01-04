@@ -10,7 +10,9 @@ If you are used to importing external modules - even within browser scripts (e.g
 
 This repository therefore **copies the source code of the original** distribution **and bundles it into an ECMAScript module** - nothing else.
 
-But now you can easily `import localforage from 'localforage'` (or `import localForage from 'localforage'` if you prefer that capitalisation) and work with it as usual:
+But now you can easily `import localforage from 'localforage'` (or `import localForage from 'localforage'` if you prefer that capitalisation) as shown below
+
+## Usage ##
 
 ```
 <script type="importmap">
