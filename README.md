@@ -1,6 +1,6 @@
 # localforage-esm #
 
-the "localForage" library as an ECMAscript module
+the "localForage" library bundled as an ECMAscript module
 
 This repository provides the [localForage](https://github.com/localForage/localForage) library as an ECMAScript module (ESM).
 
