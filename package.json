@@ -1,0 +1,32 @@
+{
+    "name": "localforage",
+    "author": "Mozilla",
+    "license": "Apache-2.0",
+    "description": "Offline storage, improved.",
+    "keywords": [
+        "indexeddb",
+        "localstorage",
+        "storage",
+        "websql"
+    ],
+    "version": "1.10.0",
+    "homepage": "https://github.com/localForage/localForage",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/localForage/localForage.git"
+    },
+    "scripts": {
+        "build":"rollup -c rollup.config.js"
+    },
+    "devDependencies": {
+      "rollup": "^2.52.1",
+      "rollup-plugin-terser": "^7.0.2"
+    },
+    "module": "dist/localforage.esm.js",
+    "bugs": {
+        "url": "http://github.com/localForage/localForage/issues"
+    },
+    "dependencies": {
+        "lie": "3.1.1"
+    }
+}
