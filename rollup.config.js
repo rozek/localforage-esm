@@ -8,7 +8,9 @@ export default {
     {
       file:     './dist/localforage.esm.js',
       format:   'esm',
-      sourcemap:true,
+      noConflict:true,
+      sourcemap: true,
+      plugins: [terser({ format:{ comments:false, safari10:true } })],
     }
   ],
 };
