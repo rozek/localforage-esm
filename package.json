@@ -16,13 +16,17 @@
         "url": "git://github.com/localForage/localForage.git"
     },
     "scripts": {
-        "build":"rollup -c rollup.config.js"
+        "build":"rollup -c rollup.config.js && cp ./localforage.d.ts ./dist"
     },
     "devDependencies": {
       "rollup": "^2.52.1",
       "rollup-plugin-terser": "^7.0.2"
     },
-    "module": "dist/localforage.esm.js",
+    "module": "./dist/localforage.esm.js",
+    "exports": {
+      "types": "./dist/localforage.d.ts",
+      "default": "./dist/localforage.js"
+    },
     "bugs": {
         "url": "http://github.com/localForage/localForage/issues"
     },
